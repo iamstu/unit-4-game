@@ -9,3 +9,27 @@ figure{
 p {
     clear: both;
 }
+
+#char-1{
+    background-color: red;
+}
+
+#char-2{
+    background-color: blue;
+}
+
+#char-3{
+    background-color: green;
+}
+
+#char-4{
+    background-color: yellow;
+}
+
+.defender{
+    height: 150px;
+}
+
+button{
+    clear: both;
+}
