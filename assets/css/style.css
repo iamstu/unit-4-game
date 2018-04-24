@@ -30,3 +30,7 @@ button {
 button{
     clear: both;
 }
+
+.defeated{
+    visibility: hidden;
+}
