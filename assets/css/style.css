@@ -1,3 +1,20 @@
+body, html{
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+h1{
+    color: #fff;
+    clear: both;
+}
+
 figure{
     height: 125px;
     width: 160px;
@@ -6,12 +23,13 @@ figure{
     border-width: 2px;
     float: left;
     text-align: center;
+    background-color: #fff;
 }
 
 img{
     width: 80%;
     height: 70%;
-    background-color: #fff;
+    
 }
 
 p {
