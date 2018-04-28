@@ -10,7 +10,7 @@ var characterDataArray = [
 },
     luke = {
         charHealth: 100,
-        charAtk: 20,
+        charAtk: 40,
         charCounter: 10,
 },
     sidius = {
@@ -21,7 +21,7 @@ var characterDataArray = [
     maul = {
         charHealth: 180,
         charAtk: 5,
-        charCounter: 25,
+        charCounter: 30,
 }];
 var chosenStats;
 var atkUp;
@@ -52,13 +52,13 @@ var defeatedArray= [];
         },
             sidius = {
                 charHealth: 150,
-                charAtk: 20,
+                charAtk: 10,
                 charCounter: 20,
         },
             maul = {
                 charHealth: 180,
-                charAtk: 10,
-                charCounter: 25,
+                charAtk: 5,
+                charCounter: 30,
         }];
         //for (var j = 0; j < charNameArray.length; j++){
             $("#obiWan").find(".health").text(characterDataArray[0].charHealth);
@@ -66,7 +66,6 @@ var defeatedArray= [];
             $("#Sidius").find(".health").text(characterDataArray[2].charHealth);
             $("#Maul").find(".health").text(characterDataArray[3].charHealth)
         }
-
    
     $(".char-choices").on("click", "figure", function(){
     chosenChar = this;
